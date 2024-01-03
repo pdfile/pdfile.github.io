@@ -43,9 +43,13 @@ function showInstallPromptOnInteraction() {
         deferredPrompt.prompt();
         // Wait for the user to respond
         deferredPrompt.userChoice.then((choiceResult) => {
+            // Act on user choice
             // If the user accepted, we don't need the prompt anymore
             if (choiceResult.outcome === 'accepted') {
+                console.log('User accepted the install prompt.');
                 deferredPrompt = null;
+            } else {
+                console.log('User dismissed the install prompt');
             }
         });
     }
