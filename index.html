@@ -7,14 +7,14 @@
     <!--meta http-equiv="Content-Security-Policy" content="default-src https:"/-->
     <meta name="viewport"
           content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=no">
-    <meta name="msvalidate.01" content="D18FE9AFB38BC3092B4AB531827C32D5" />
+    <meta name="msvalidate.01" content="D18FE9AFB38BC3092B4AB531827C32D5"/>
     <meta name="google-site-verification" content="_hOT4z11wCZsn7cClYPbVy2kefHAGXil3dRH_p2QvOA"/>
     <!-- color -->
     <meta name="theme-color" content="#fff">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="//acrobatservices.adobe.com" crossorigin>
     <!-- manifest -->
-    <link rel="manifest" href="assets/manifest.json" crossorigin>
+    <link rel="manifest" href="manifest.json" crossorigin>
     <title>PDFile</title>
 
     <!-- favicon/icons -->
@@ -111,11 +111,13 @@
     <link rel="apple-touch-startup-image" href="assets/icons/icon180.png">
 
     <!-- multiple icons for IE -->
-    <meta name="msapplication-square310x310logo" content="icon_largetile.png">
+    <meta name="msapplication-square310x310logo" content="assets/icons/icon310.png">
 
     <meta name="msapplication-TileColor" content="#0000ff">
     <!-- 128,270,558 -->
-    <meta name="msapplication-TileImage" content="icon-white.png">
+    <meta name="msapplication-TileImage" content="assets/icons/icon128.png">
+    <meta name="msapplication-TileImage" content="assets/icons/icon270.png">
+    <meta name="msapplication-TileImage" content="assets/icons/icon585.png">
     <!-- mask-icon in svg -->
     <link rel="mask-icon" href="https://" color="#000000">
     <!--  -->
@@ -167,7 +169,7 @@
         }
 
         gtag('js', new Date());
-        gtag('config', 'G-');
+        gtag('config', 'G-TODO');
     </script>
     <!-- Microsoft Clarity tracking -->
     <script type="text/javascript">
@@ -205,6 +207,11 @@
             }
         }, {});
     });
+</script>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', {scope: '/'});
+    }
 </script>
 </body>
 </html>
