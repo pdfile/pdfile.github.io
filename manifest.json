@@ -3,304 +3,304 @@
   "name": "PDF",
   "short_name": "PDFile",
   "description": "View or Edit PDF files in app powered by Adobe Acrobat",
-  "start_url": "/?utm_view=pwa",
+  "start_url": "/?utm_source=pwa",
   "background_color": "#fff",
   "theme_color": "#fff",
   "orientation": "any",
   "display": "standalone",
   "icons": [
     {
-      "src": "assets/icons/icon16.png",
+      "src": "assets/favicons/icon16.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon20.png",
+      "src": "assets/favicons/icon20.png",
       "sizes": "20x20",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon24.png",
+      "src": "assets/favicons/icon24.png",
       "sizes": "24x24",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon29.png",
+      "src": "assets/favicons/icon29.png",
       "sizes": "29x29",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon30.png",
+      "src": "assets/favicons/icon30.png",
       "sizes": "30x30",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon32.png",
+      "src": "assets/favicons/icon32.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon36.png",
+      "src": "assets/favicons/icon36.png",
       "sizes": "36x36",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon40.png",
+      "src": "assets/favicons/icon40.png",
       "sizes": "40x40",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon48.png",
+      "src": "assets/favicons/icon48.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon50.png",
+      "src": "assets/favicons/icon50.png",
       "sizes": "50x50",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon55.png",
+      "src": "assets/favicons/icon55.png",
       "sizes": "55x55",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon57.png",
+      "src": "assets/favicons/icon57.png",
       "sizes": "57x57",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon58.png",
+      "src": "assets/favicons/icon58.png",
       "sizes": "58x58",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon60.png",
+      "src": "assets/favicons/icon60.png",
       "sizes": "60x60",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon64.png",
+      "src": "assets/favicons/icon64.png",
       "sizes": "64x64",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon70.png",
+      "src": "assets/favicons/icon70.png",
       "sizes": "70x70",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon71.png",
+      "src": "assets/favicons/icon71.png",
       "sizes": "71x71",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon72.png",
+      "src": "assets/favicons/icon72.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon76.png",
+      "src": "assets/favicons/icon76.png",
       "sizes": "76x76",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon80.png",
+      "src": "assets/favicons/icon80.png",
       "sizes": "80x80",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon87.png",
+      "src": "assets/favicons/icon87.png",
       "sizes": "87x87",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon88.png",
+      "src": "assets/favicons/icon88.png",
       "sizes": "88x88",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon89.png",
+      "src": "assets/favicons/icon89.png",
       "sizes": "89x89",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon96.png",
+      "src": "assets/favicons/icon96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon100.png",
+      "src": "assets/favicons/icon100.png",
       "sizes": "100x100",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon107.png",
+      "src": "assets/favicons/icon107.png",
       "sizes": "107x107",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon114.png",
+      "src": "assets/favicons/icon114.png",
       "sizes": "114x114",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon120.png",
+      "src": "assets/favicons/icon120.png",
       "sizes": "120x120",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon128.png",
+      "src": "assets/favicons/icon128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon142.png",
+      "src": "assets/favicons/icon142.png",
       "sizes": "142x142",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon144.png",
+      "src": "assets/favicons/icon144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon146.png",
+      "src": "assets/favicons/icon146.png",
       "sizes": "146x146",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon150.png",
+      "src": "assets/favicons/icon150.png",
       "sizes": "150x150",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon152.png",
+      "src": "assets/favicons/icon152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon167.png",
+      "src": "assets/favicons/icon167.png",
       "sizes": "167x167",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon172.png",
+      "src": "assets/favicons/icon172.png",
       "sizes": "172x172",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon180.png",
+      "src": "assets/favicons/icon180.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon188.png",
+      "src": "assets/favicons/icon188.png",
       "sizes": "188x188",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon192.png",
+      "src": "assets/favicons/icon192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon195.png",
+      "src": "assets/favicons/icon195.png",
       "sizes": "195x195",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon196.png",
+      "src": "assets/favicons/icon196.png",
       "sizes": "196x196",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon225.png",
+      "src": "assets/favicons/icon225.png",
       "sizes": "225x225",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon256.png",
+      "src": "assets/favicons/icon256.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon260.png",
+      "src": "assets/favicons/icon260.png",
       "sizes": "260x260",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon284.png",
+      "src": "assets/favicons/icon284.png",
       "sizes": "284x284",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon293.png",
+      "src": "assets/favicons/icon293.png",
       "sizes": "293x293",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon300.png",
+      "src": "assets/favicons/icon300.png",
       "sizes": "300x300",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon310.png",
+      "src": "assets/favicons/icon310.png",
       "sizes": "310x310",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon388.png",
+      "src": "assets/favicons/icon388.png",
       "sizes": "388x388",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon390.png",
+      "src": "assets/favicons/icon390.png",
       "sizes": "390x390",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon465.png",
+      "src": "assets/favicons/icon465.png",
       "sizes": "465x465",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon512.png",
+      "src": "assets/favicons/icon512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon520.png",
+      "src": "assets/favicons/icon520.png",
       "sizes": "520x520",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon585.png",
+      "src": "assets/favicons/icon585.png",
       "sizes": "585x585",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon600.png",
+      "src": "assets/favicons/icon600.png",
       "sizes": "600x600",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon620.png",
+      "src": "assets/favicons/icon620.png",
       "sizes": "620x620",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon780.png",
+      "src": "assets/favicons/icon780.png",
       "sizes": "780x780",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon1024.png",
+      "src": "assets/favicons/icon1024.png",
       "sizes": "1024x1024",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon1240.png",
+      "src": "assets/favicons/icon1240.png",
       "sizes": "1240x1240",
       "type": "image/png"
     }
@@ -412,5 +412,19 @@
       "label": "Homescreen"
     }
   ],
-  "splash_pages": null
+  "splash_pages": null,
+  "shortcuts": [
+    {
+      "name": "Recently opened",
+      "short_name": "History",
+      "description": "View last opened files",
+      "url": "/history?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "/icons/history.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
 }
