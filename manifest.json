@@ -306,6 +306,111 @@
     }
   ],
   "screenshots": [
+    {
+      "src": "assets/screens/wide/desk01.png",
+      "sizes": "1600x850",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/wide/desk02.png",
+      "sizes": "1600x850",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/wide/desk03.png",
+      "sizes": "1600x850",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/wide/desk04.png",
+      "sizes": "1600x850",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/wide/desk05.png",
+      "sizes": "1600x850",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/wide/desk06.png",
+      "sizes": "1600x850",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/wide/desk07.png",
+      "sizes": "1600x850",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/wide/desk08.png",
+      "sizes": "1600x850",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/wide/desk09.png",
+      "sizes": "1600x850",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/narrow/mobile01.jpg",
+      "sizes": "720x1380",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/narrow/mobile02.jpg",
+      "sizes": "720x1380",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/narrow/mobile03.jpg",
+      "sizes": "720x1380",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/narrow/mobile04.jpg",
+      "sizes": "720x1380",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/narrow/mobile05.jpg",
+      "sizes": "720x1380",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Homescreen"
+    },
+    {
+      "src": "assets/screens/narrow/mobile06.jpg",
+      "sizes": "720x1380",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Homescreen"
+    }
   ],
   "splash_pages": null
 }
