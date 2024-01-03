@@ -420,7 +420,7 @@
       "url": "/history?utm_source=homescreen",
       "icons": [
         {
-          "src": "/icons/history.png",
+          "src": "assets/favicons/icon192.png",
           "sizes": "192x192"
         }
       ]
