@@ -412,7 +412,6 @@
       "label": "Homescreen"
     }
   ],
-  "splash_pages": null,
   "shortcuts": [
     {
       "name": "Recently opened",
@@ -426,5 +425,16 @@
         }
       ]
     }
-  ]
+  ],
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": {
+        "application/pdf": [
+          ".pdf"
+        ]
+      }
+    }
+  ],
+  "splash_pages": null
 }
