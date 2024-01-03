@@ -192,21 +192,32 @@
 <body>
 <div id="adobe-dc-view" style="margin: 0"></div>
 <script type="text/javascript">
-    document.addEventListener("adobe_dc_view_sdk.ready", function () {
-        var adobeDCView = new AdobeDC.View({
-            clientId: "642813ab9ded4055a4f140d9646c90f9", divId: "adobe-dc-view"
-        });
-        adobeDCView.previewFile({
-            content: {
-                location: {
-                    url: "https://acrobatservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"
-                }
-            },
-            metaData: {
-                fileName: "Bodea_Brochure.pdf"
+    var fileUrl;
+    if ("launchQueue" in window) {
+        launchQueue.setConsumer(async (launchParams) => {
+            for (const file of launchParams.files) {
+                fileUrl = URL.createObjectURL(await file.getFile());
+
+                document.addEventListener("adobe_dc_view_sdk.ready", function () {
+                    var adobeDCView = new AdobeDC.View({
+                        clientId: "642813ab9ded4055a4f140d9646c90f9", divId: "adobe-dc-view"
+                    });
+                    adobeDCView.previewFile({
+                        content: {
+                            location: {
+                                //url: "https://acrobatservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"
+                                url: fileUrl
+                            }
+                        },
+                        metaData: {
+                            fileName: file.name
+                        }
+                    }, {});
+                });
             }
-        }, {});
-    });
+        });
+    }
+
 </script>
 <script>
     if ('serviceWorker' in navigator) {
