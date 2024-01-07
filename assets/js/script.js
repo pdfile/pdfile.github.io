@@ -54,3 +54,35 @@ function showInstallPromptOnInteraction() {
         });
     }
 }
+
+// A function to save data on the user side
+function saveData(key, value) {
+    // Check if localStorage is supported
+    if (typeof (Storage) !== "undefined") {
+        // Save the data using the key and value parameters
+        localStorage.setItem(key, value);
+        // Display a success message
+        //alert("Data saved successfully!");
+    } else {
+        // Display an error message
+        alert("Sorry, your browser does not support localStorage.");
+    }
+}
+
+// Get the current timestamp in milliseconds
+var timestamp = new Date().getTime();
+saveData ("file", "file:///folder/file.pdf");
+saveData ("time", timestamp);
+
+// Get the user's name
+var fileName = localStorage.getItem ("file");
+console.log('FILE: ' + fileName);
+// Get the user's favorite color
+var time = localStorage.getItem ("time");
+console.log('TIME: ' + time);
+
+// Delete the fileName
+//localStorage.removeItem ("name");
+// Delete all the data
+//localStorage.clear ();
+

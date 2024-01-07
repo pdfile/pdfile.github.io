@@ -5,13 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <!--meta http-equiv="Content-Security-Policy" content="default-src https:"/-->
-    <meta name="viewport"
-          content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=no">
+    <!-- for accessibility the content must be scalable, so removed (minimum-scale=1.0, maximum-scale=5.0, user-scalable=no) -->
+    <meta content="viewport-fit=cover, width=device-width, initial-scale=1.0" name="viewport">
     <meta name="msvalidate.01" content="D18FE9AFB38BC3092B4AB531827C32D5"/>
     <meta name="google-site-verification" content="_hOT4z11wCZsn7cClYPbVy2kefHAGXil3dRH_p2QvOA"/>
     <!-- color -->
     <meta name="theme-color" content="#fff">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="//www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="//www.clarity.ms" crossorigin>
     <link rel="preconnect" href="//acrobatservices.adobe.com" crossorigin>
     <!-- manifest -->
     <link rel="manifest" href="manifest.json" crossorigin>
@@ -149,9 +151,9 @@
     <meta name="twitter:title" content="Developer"/>
     <meta name="twitter:description"
           content="TODO"/>
-    <meta name="twitter:image" content="https://pdfile.github.io/icons/icon-512.png"/>
+    <meta name="twitter:image" content="https://pdfile.github.io/assets/favicons/icon-512.png"/>
     <!-- #### -->
-    <link rel="stylesheet" href="assets/css/style.css" media="all" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css" media="all" crossorigin="anonymous">
 
     <meta content="origin" name="referrer">
     <meta content="https://" itemprop="image">
@@ -187,9 +189,22 @@
 
     <script type="application/javascript" src="https://acrobatservices.adobe.com/view-sdk/viewer.js"
             crossorigin="anonymous" defer></script>
-
 </head>
 <body>
+<div id="main-container" style="margin: 0; height:100vh; width:100vw ; background: lavenderblush">
+    <input type="file" id="file-select" style="display:none" name="upload" accept="application/pdf"
+           onchange="hideMainContainer()">
+</div>
+<input type="file" id="file-input">
+<script>
+    function hideMainContainer() {
+        // get the div element by id
+        var div = document.getElementById("main-container");
+        // set the display property to none
+        div.style.display = "none";
+    }
+</script>
+
 <div id="adobe-dc-view" style="margin: 0"></div>
 <script type="text/javascript">
     var fileUrl;
